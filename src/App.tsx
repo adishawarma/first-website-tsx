@@ -1,9 +1,14 @@
+import Custom from "./custom"
+
 function App() {
 
   return (
-    <>
-      Hello World!
-    </>
+    <div>
+      <Custom name = {"Aditya"}/>
+      <Custom name = {"Aayush"}/>
+      <Custom name = {"Ak"}/>
+      <Custom name = {"Kartik"}/>
+    </div>
   )
 }
 
